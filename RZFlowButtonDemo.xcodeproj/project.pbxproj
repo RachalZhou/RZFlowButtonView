@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF42F91A1DE6929D00666806 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF42F9191DE6929D00666806 /* main.m */; };
+		DF42F91D1DE6929D00666806 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF42F91C1DE6929D00666806 /* AppDelegate.m */; };
+		DF42F9201DE6929D00666806 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF42F91F1DE6929D00666806 /* ViewController.m */; };
+		DF42F9231DE6929D00666806 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF42F9211DE6929D00666806 /* Main.storyboard */; };
+		DF42F9251DE6929D00666806 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF42F9241DE6929D00666806 /* Assets.xcassets */; };
+		DF42F9281DE6929D00666806 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF42F9261DE6929D00666806 /* LaunchScreen.storyboard */; };
+		DF42F9331DE6929D00666806 /* RZFlowButtonDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF42F9321DE6929D00666806 /* RZFlowButtonDemoTests.m */; };
+		DF42F93E1DE6929D00666806 /* RZFlowButtonDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF42F93D1DE6929D00666806 /* RZFlowButtonDemoUITests.m */; };
+		DF42F94E1DE692E700666806 /* RZFlowButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF42F94D1DE692E700666806 /* RZFlowButtonView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF42F92F1DE6929D00666806 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF42F90D1DE6929D00666806 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF42F9141DE6929D00666806;
+			remoteInfo = RZFlowButtonDemo;
+		};
+		DF42F93A1DE6929D00666806 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF42F90D1DE6929D00666806 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF42F9141DE6929D00666806;
+			remoteInfo = RZFlowButtonDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF42F9151DE6929D00666806 /* RZFlowButtonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RZFlowButtonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF42F9191DE6929D00666806 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF42F91B1DE6929D00666806 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DF42F91C1DE6929D00666806 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DF42F91E1DE6929D00666806 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DF42F91F1DE6929D00666806 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DF42F9221DE6929D00666806 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF42F9241DE6929D00666806 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF42F9271DE6929D00666806 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF42F9291DE6929D00666806 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF42F92E1DE6929D00666806 /* RZFlowButtonDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RZFlowButtonDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF42F9321DE6929D00666806 /* RZFlowButtonDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RZFlowButtonDemoTests.m; sourceTree = "<group>"; };
+		DF42F9341DE6929D00666806 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF42F9391DE6929D00666806 /* RZFlowButtonDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RZFlowButtonDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF42F93D1DE6929D00666806 /* RZFlowButtonDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RZFlowButtonDemoUITests.m; sourceTree = "<group>"; };
+		DF42F93F1DE6929D00666806 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF42F94C1DE692E700666806 /* RZFlowButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RZFlowButtonView.h; sourceTree = "<group>"; };
+		DF42F94D1DE692E700666806 /* RZFlowButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RZFlowButtonView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF42F9121DE6929D00666806 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF42F92B1DE6929D00666806 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF42F9361DE6929D00666806 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF42F90C1DE6929D00666806 = {
+			isa = PBXGroup;
+			children = (
+				DF42F9171DE6929D00666806 /* RZFlowButtonDemo */,
+				DF42F9311DE6929D00666806 /* RZFlowButtonDemoTests */,
+				DF42F93C1DE6929D00666806 /* RZFlowButtonDemoUITests */,
+				DF42F9161DE6929D00666806 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF42F9161DE6929D00666806 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF42F9151DE6929D00666806 /* RZFlowButtonDemo.app */,
+				DF42F92E1DE6929D00666806 /* RZFlowButtonDemoTests.xctest */,
+				DF42F9391DE6929D00666806 /* RZFlowButtonDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF42F9171DE6929D00666806 /* RZFlowButtonDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DF42F94B1DE692BE00666806 /* RZFlowButtonView */,
+				DF42F91B1DE6929D00666806 /* AppDelegate.h */,
+				DF42F91C1DE6929D00666806 /* AppDelegate.m */,
+				DF42F91E1DE6929D00666806 /* ViewController.h */,
+				DF42F91F1DE6929D00666806 /* ViewController.m */,
+				DF42F9211DE6929D00666806 /* Main.storyboard */,
+				DF42F9241DE6929D00666806 /* Assets.xcassets */,
+				DF42F9261DE6929D00666806 /* LaunchScreen.storyboard */,
+				DF42F9291DE6929D00666806 /* Info.plist */,
+				DF42F9181DE6929D00666806 /* Supporting Files */,
+			);
+			path = RZFlowButtonDemo;
+			sourceTree = "<group>";
+		};
+		DF42F9181DE6929D00666806 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF42F9191DE6929D00666806 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF42F9311DE6929D00666806 /* RZFlowButtonDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF42F9321DE6929D00666806 /* RZFlowButtonDemoTests.m */,
+				DF42F9341DE6929D00666806 /* Info.plist */,
+			);
+			path = RZFlowButtonDemoTests;
+			sourceTree = "<group>";
+		};
+		DF42F93C1DE6929D00666806 /* RZFlowButtonDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DF42F93D1DE6929D00666806 /* RZFlowButtonDemoUITests.m */,
+				DF42F93F1DE6929D00666806 /* Info.plist */,
+			);
+			path = RZFlowButtonDemoUITests;
+			sourceTree = "<group>";
+		};
+		DF42F94B1DE692BE00666806 /* RZFlowButtonView */ = {
+			isa = PBXGroup;
+			children = (
+				DF42F94C1DE692E700666806 /* RZFlowButtonView.h */,
+				DF42F94D1DE692E700666806 /* RZFlowButtonView.m */,
+			);
+			path = RZFlowButtonView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF42F9141DE6929D00666806 /* RZFlowButtonDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF42F9421DE6929D00666806 /* Build configuration list for PBXNativeTarget "RZFlowButtonDemo" */;
+			buildPhases = (
+				DF42F9111DE6929D00666806 /* Sources */,
+				DF42F9121DE6929D00666806 /* Frameworks */,
+				DF42F9131DE6929D00666806 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RZFlowButtonDemo;
+			productName = RZFlowButtonDemo;
+			productReference = DF42F9151DE6929D00666806 /* RZFlowButtonDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF42F92D1DE6929D00666806 /* RZFlowButtonDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF42F9451DE6929D00666806 /* Build configuration list for PBXNativeTarget "RZFlowButtonDemoTests" */;
+			buildPhases = (
+				DF42F92A1DE6929D00666806 /* Sources */,
+				DF42F92B1DE6929D00666806 /* Frameworks */,
+				DF42F92C1DE6929D00666806 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF42F9301DE6929D00666806 /* PBXTargetDependency */,
+			);
+			name = RZFlowButtonDemoTests;
+			productName = RZFlowButtonDemoTests;
+			productReference = DF42F92E1DE6929D00666806 /* RZFlowButtonDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DF42F9381DE6929D00666806 /* RZFlowButtonDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF42F9481DE6929D00666806 /* Build configuration list for PBXNativeTarget "RZFlowButtonDemoUITests" */;
+			buildPhases = (
+				DF42F9351DE6929D00666806 /* Sources */,
+				DF42F9361DE6929D00666806 /* Frameworks */,
+				DF42F9371DE6929D00666806 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF42F93B1DE6929D00666806 /* PBXTargetDependency */,
+			);
+			name = RZFlowButtonDemoUITests;
+			productName = RZFlowButtonDemoUITests;
+			productReference = DF42F9391DE6929D00666806 /* RZFlowButtonDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF42F90D1DE6929D00666806 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = RachalZhou;
+				TargetAttributes = {
+					DF42F9141DE6929D00666806 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					DF42F92D1DE6929D00666806 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DF42F9141DE6929D00666806;
+					};
+					DF42F9381DE6929D00666806 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DF42F9141DE6929D00666806;
+					};
+				};
+			};
+			buildConfigurationList = DF42F9101DE6929D00666806 /* Build configuration list for PBXProject "RZFlowButtonDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF42F90C1DE6929D00666806;
+			productRefGroup = DF42F9161DE6929D00666806 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF42F9141DE6929D00666806 /* RZFlowButtonDemo */,
+				DF42F92D1DE6929D00666806 /* RZFlowButtonDemoTests */,
+				DF42F9381DE6929D00666806 /* RZFlowButtonDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF42F9131DE6929D00666806 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF42F9281DE6929D00666806 /* LaunchScreen.storyboard in Resources */,
+				DF42F9251DE6929D00666806 /* Assets.xcassets in Resources */,
+				DF42F9231DE6929D00666806 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF42F92C1DE6929D00666806 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF42F9371DE6929D00666806 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF42F9111DE6929D00666806 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF42F94E1DE692E700666806 /* RZFlowButtonView.m in Sources */,
+				DF42F9201DE6929D00666806 /* ViewController.m in Sources */,
+				DF42F91D1DE6929D00666806 /* AppDelegate.m in Sources */,
+				DF42F91A1DE6929D00666806 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF42F92A1DE6929D00666806 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF42F9331DE6929D00666806 /* RZFlowButtonDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF42F9351DE6929D00666806 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF42F93E1DE6929D00666806 /* RZFlowButtonDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF42F9301DE6929D00666806 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF42F9141DE6929D00666806 /* RZFlowButtonDemo */;
+			targetProxy = DF42F92F1DE6929D00666806 /* PBXContainerItemProxy */;
+		};
+		DF42F93B1DE6929D00666806 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF42F9141DE6929D00666806 /* RZFlowButtonDemo */;
+			targetProxy = DF42F93A1DE6929D00666806 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF42F9211DE6929D00666806 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF42F9221DE6929D00666806 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF42F9261DE6929D00666806 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF42F9271DE6929D00666806 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF42F9401DE6929D00666806 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF42F9411DE6929D00666806 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF42F9431DE6929D00666806 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RZFlowButtonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baidu.RZFlowButtonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DF42F9441DE6929D00666806 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RZFlowButtonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baidu.RZFlowButtonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DF42F9461DE6929D00666806 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RZFlowButtonDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baidu.RZFlowButtonDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RZFlowButtonDemo.app/RZFlowButtonDemo";
+			};
+			name = Debug;
+		};
+		DF42F9471DE6929D00666806 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RZFlowButtonDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baidu.RZFlowButtonDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RZFlowButtonDemo.app/RZFlowButtonDemo";
+			};
+			name = Release;
+		};
+		DF42F9491DE6929D00666806 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RZFlowButtonDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baidu.RZFlowButtonDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RZFlowButtonDemo;
+			};
+			name = Debug;
+		};
+		DF42F94A1DE6929D00666806 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RZFlowButtonDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baidu.RZFlowButtonDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RZFlowButtonDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF42F9101DE6929D00666806 /* Build configuration list for PBXProject "RZFlowButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF42F9401DE6929D00666806 /* Debug */,
+				DF42F9411DE6929D00666806 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF42F9421DE6929D00666806 /* Build configuration list for PBXNativeTarget "RZFlowButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF42F9431DE6929D00666806 /* Debug */,
+				DF42F9441DE6929D00666806 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DF42F9451DE6929D00666806 /* Build configuration list for PBXNativeTarget "RZFlowButtonDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF42F9461DE6929D00666806 /* Debug */,
+				DF42F9471DE6929D00666806 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DF42F9481DE6929D00666806 /* Build configuration list for PBXNativeTarget "RZFlowButtonDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF42F9491DE6929D00666806 /* Debug */,
+				DF42F94A1DE6929D00666806 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF42F90D1DE6929D00666806 /* Project object */;
+}
