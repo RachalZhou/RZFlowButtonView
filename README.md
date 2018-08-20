@@ -103,7 +103,7 @@ self.clickBlock(btn);
 }
 ~~~
 
-![效果](https://github.com/RachalZhou/MarkdownPhotos/blob/master/hotSearch.png?raw=true)
+![效果](http://oumlnfj3g.bkt.clouddn.com/18-8-20/52192463.jpg)
 [完整demo](https://github.com/RachalZhou/RZFlowButtonView)
 ### 总结
 这个效果只要理解了**流式布局**的核心逻辑，处理起来就很简单了。最后为了方便使用，封装时注意一些细节即可。
