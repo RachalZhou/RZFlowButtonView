@@ -44,12 +44,16 @@
         CGRect rect = [name boundingRectWithSize:CGSizeMake(CGRectGetWidth(self.frame), self.wordHeight) options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSForegroundColorAttributeName:[UIColor redColor],NSFontAttributeName:btn.titleLabel.font} context:nil];
         
         if (i == 0) {
+            
             btn.frame = CGRectMake(self.padding, self.padding, rect.size.width + 15, rect.size.height + 15);
         }else {
+            
             CGFloat leftWidth = CGRectGetWidth(self.frame) - btnPrev.frame.origin.x - btnPrev.frame.size.width - self.padding * 2;
             if (leftWidth > rect.size.width) {
+                
                 btn.frame = CGRectMake(CGRectGetMaxX(btnPrev.frame) + self.padding, btnPrev.frame.origin.y, rect.size.width + 15, rect.size.height + 15);
             }else {
+                
                 btn.frame = CGRectMake(self.padding, CGRectGetMaxY(btnPrev.frame) + self.padding, rect.size.width + 15, rect.size.height + 15);
             }
         }
@@ -70,6 +74,7 @@
         
         //最后一个按钮时设置视图高度
         if (i == self.words.count - 1) {
+            
             CGRect aRect = self.frame;
             aRect.size.height = CGRectGetMaxY(btn.frame) + 10;
             self.frame = aRect;
@@ -78,9 +83,13 @@
 }
 
 - (void)onBtnClick:(UIButton *)btn {
+    
     if (self.clickBlock) {
+        
         self.clickBlock(btn);
     }
 }
+
+
 
 @end
